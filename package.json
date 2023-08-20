@@ -1,0 +1,20 @@
+{
+  "name": "lightning-web-components-styling-hooks",
+  "displayName": "Lightning Web Components Styling Hooks",
+  "description": "Styling hooks available for standard lightning web components",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "css",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
