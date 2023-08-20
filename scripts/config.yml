@@ -1,0 +1,23 @@
+# store the base url for the website to scrape
+URL:
+  base: "https://www.lightningdesignsystem.com"
+
+selectors:
+  sidebar: ".site-sidebar"
+  navigation_menu_item: "nav > ul > li"
+  navigation_menu_item_title: ".slds-media__body"
+  styling_hooks_menu: "#Styling-Hooks-Overview"
+  styling_hooks_table: ".hooks-table"
+  styling_hooks_table_row: "tbody > tr"
+  styling_hook_name: ".hooks-table__hook-name"
+  styling_hook_fallback_value: "td:last-child"
+
+blueprints_menu_item_title: "Component Blueprints"
+
+excluded_blueprint_titles:
+  - "Overview"
+
+PATH:
+  blueprints_output: "./scripts/blueprints.json"
+  styling_hooks_output: "./scripts/styling-hooks.json"
+# Path: scripts\config.yml
