@@ -1,71 +1,30 @@
-# lightning-web-components-styling-hooks README
+# Lightning Web Components Styling Hooks
 
-This is the README for your extension "lightning-web-components-styling-hooks". After writing up a brief description, we recommend including the following sections.
+The Lightning Web Components Styling Hooks lets you use all the styling hooks available for standard lightning web components. You do not need to visit [https://lightningdesignsystem.com](https://lightningdesignsystem.com) and search through the blueprint anymore.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Provides code completion for styling hooks available for standard lightning web components. I will be keeping it up to date with each Salesforce release.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- Type `--slds` to see all the available styling hooks
+- keep typing to find a matching styling hook if it exists
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- Lightning Web Components Styling Hooks are specific to Salesforce. Please make sure you are using them in a Salesforce project only, even though the extension is available outside of a Salesforce project.
+- Currently it supports `css` files only.
+- Please make sure you are using the latest version of VS Code. At the time of building this extension, I was on version 1.81.0
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+If you see any issues, please report [here](https://github.com/ashis-kumar-dev/lightning-web-components-styling-hooks/issues)
+
+## Feature Requests
+
+You can also request for new features [here](https://github.com/ashis-kumar-dev/lightning-web-components-styling-hooks/issues)
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release of Lightning Web Components Styling Hooks provider
