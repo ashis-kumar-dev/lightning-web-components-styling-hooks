@@ -6,6 +6,9 @@
   "engines": {
     "vscode": "^1.81.0"
   },
+  "repository": {
+    "url": "https://github.com/ashis-kumar-dev/lightning-web-components-styling-hooks"
+  },
   "categories": [
     "Other"
   ],
