@@ -19,5 +19,5 @@ excluded_blueprint_titles:
 
 PATH:
   blueprints_output: "./scripts/blueprints.json"
-  styling_hooks_output: "./scripts/styling-hooks.json"
+  styling_hooks_output: "./styling-hooks.json"
 # Path: scripts\config.yml
