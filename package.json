@@ -2,12 +2,20 @@
   "name": "lightning-web-components-styling-hooks",
   "displayName": "Lightning Web Components Styling Hooks",
   "description": "Styling hooks available for standard lightning web components",
+  "author": "Ashis Kumar Maharana",
+  "publisher": "ashis-kumar-dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashis-kumar-dev/lightning-web-components-styling-hooks"
+  },
+  "bugs": {
+    "url": "https://github.com/ashis-kumar-dev/lightning-web-components-styling-hooks/issues"
+  },
+  "icon": "icon.jpg",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.81.0"
-  },
-  "repository": {
-    "url": "https://github.com/ashis-kumar-dev/lightning-web-components-styling-hooks"
   },
   "categories": [
     "Other"
