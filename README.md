@@ -9,6 +9,8 @@ Provides code completion for styling hooks available for standard lightning web 
 - Type `--slds` to see all the available styling hooks
 - keep typing to find a matching styling hook if it exists
 
+  ![Screenshot](screenshot.png)
+
 ## Requirements
 
 - Lightning Web Components Styling Hooks are specific to Salesforce. Please make sure you are using them in a Salesforce project only, even though the extension is available outside of a Salesforce project.
