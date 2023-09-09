@@ -35,7 +35,8 @@
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js",
     "package": "vsce package -o ./bin/lightning-web-components-styling-hooks.vsix",
-    "publish": "vsce publish"
+    "publish": "vsce publish",
+    "scrape": "call .venv/Scripts/activate && python ./scripts/scraper.py && deactivate"
   },
   "devDependencies": {
     "@types/glob": "^8.1.0",
