@@ -1,6 +1,6 @@
 # store the base url for the website to scrape
 URL:
-  base: "https://www.lightningdesignsystem.com"
+  base: "https://lightningdesignsystem.com"
 
 selectors:
   sidebar: ".site-sidebar"
